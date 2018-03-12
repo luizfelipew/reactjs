@@ -7,7 +7,3 @@ export default class Pessoa {
         return `Pessoa: ${this.nome}`
     }
 }
-
-const pessoa = new Pessoa('Luiz Felipe Wendt')
-console.log(pessoa.toString());
-
