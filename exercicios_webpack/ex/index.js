@@ -1,7 +1,8 @@
+import './estilo.css'
 import 'react'
 
 export default props => (
-    <h1>Olá gzuz</h1>
+    <h1>Olá Gzuz</h1>
 )
 
-console.log('Funcionou')
+console.log('Funcionou!')
