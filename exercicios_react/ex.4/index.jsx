@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import WendtFamily from './wendtFamily'
+import { Primeiro, Segundo } from './componente'
 
 ReactDOM.render(
-    <WendtFamily />
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>
 , document.getElementById('app'))
 
 
